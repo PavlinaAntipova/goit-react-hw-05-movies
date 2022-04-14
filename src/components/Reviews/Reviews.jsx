@@ -13,7 +13,7 @@ export default function Review() {
     fetchReviewById(id).then(data => {
       setReviews(data.results);
     });
-  }, []);
+  }, [id]);
 
     
   return (
