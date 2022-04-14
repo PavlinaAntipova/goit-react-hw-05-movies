@@ -1,0 +1,158 @@
+.NotFoundPage {
+  position: relative;
+  text-align: center;
+}
+
+.NotFoundPage__arrow {
+  position: absolute;
+  top: 55px;
+  right: 39%;
+  width: 100px;
+  height: auto;
+}
+
+.NotFoundPage__shapeOne {
+  position: absolute;
+  top: 28%;
+  left: 22%;
+  z-index: -2;
+  width: 100px;
+  height: auto;
+}
+
+.NotFoundPage__shapeTwo {
+  position: absolute;
+  top: 29%;
+  right: 23%;
+  z-index: -2;
+  width: 80px;
+  height: auto;
+}
+
+.NotFoundPage__goodDay {
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  width: 60px;
+  height: auto;
+}
+
+.NotFoundPage__star {
+  position: absolute;
+  top: -5px;
+  left: 30%;
+  width: 25px;
+  height: auto;
+}
+
+.NotFoundPage__img {
+  width: 50%;
+  margin: 20px auto 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.MoviesPage {
+  text-align: center;
+}
+
+.MovieDetailsPage {
+  margin: 0 auto;
+  padding: 30px;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 2px 2px 14px 11px rgba(115, 61, 131, 0.39);
+}
+
+.MovieDetailsPage__img {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 80%;
+  object-fit: cover;
+}
+
+.MovieDetailsPage__wrraper {
+  margin-right: 40px;
+  text-align: center;
+}
+
+.MovieDetailsPage__genres {
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(114, 112, 112);
+}
+
+.MovieDetailsPage__genres li {
+  margin-right: 5px;
+}
+
+.MovieDetailsPage__genres li:last-child {
+  margin-right: 0;
+}
+
+.MovieDetailsPage__title {
+  font-size: 30px;
+  line-height: 1.3em;
+}
+
+.MovieDetailsPage__rating {
+  display: inline-block;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(
+    90deg,
+    #991eeb 0.03%,
+    #5822b4 39.91%,
+    #5822b4 72.7%,
+    #991eeb 99.99%
+  );
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.MovieDetailsPage__overview {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  color: #5822b4;
+  margin-bottom: 10px;
+}
+
+.MovieDetailsPage__text {
+  margin-bottom: 20px;
+}
+
+.MovieDetailsPage__links {
+  margin-bottom: 20px;
+}
+
+.MovieDetailsPage__link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  margin-right: 20px;
+}
+
+.MovieDetailsPage__activeLinks {
+  color: #5822b4;
+}
+
+.MovieDetailsPage__info {
+  height: 100%;
+}
+
+.MovieDetailsPage__outlet {
+  height: 235px;
+  overflow-y: scroll;
+}

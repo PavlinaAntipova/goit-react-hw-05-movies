@@ -1,5 +1,3 @@
-@import-normalize; /* bring in normalize.css styles */
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,7 +7,78 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.mainText {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+.mainText__highlight {
+  color: #5822b4;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 30px;
+}
+
+.gridItem {
+  position: relative;
+}
+
+.gridItem:focus,
+.gridItem:hover {
+  box-shadow: 2px 2px 14px 11px rgba(115, 61, 131, 0.39);
+}
+
+.goBackBtn {
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(
+    90deg,
+    #991eeb 0.03%,
+    #5822b4 39.91%,
+    #5822b4 72.7%,
+    #991eeb 99.99%
+  );
+  border-radius: 15px;
+}
+
+.loading {
+  margin-left: auto;
+  margin-right: auto;
 }

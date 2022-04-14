@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+  z-index: 333;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.box {
+  position: absolute;
+  z-index: -3;
+  top: -20px;
+  border-radius: 50%;
+  filter: blur(5rem);
+}
+
+.firstBox {
+  left: -50px;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(
+    90deg,
+    #991eeb 0.03%,
+    #5822b4 39.91%,
+    #5822b4 72.7%,
+    #991eeb 99.99%
+  );
+}
+
+.secondBox {
+  right: 0;
+  width: 100px;
+  height: 300px;
+  background-image: linear-gradient(
+    90deg,
+    #991eeb 0.03%,
+    #5822b4 39.91%,
+    #5822b4 72.7%,
+    #991eeb 99.99%
+  );
+}

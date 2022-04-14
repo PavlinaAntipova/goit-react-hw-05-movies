@@ -1,0 +1,26 @@
+.img {
+  width: 100%;
+  height: 400px;
+}
+
+.rating {
+  position: absolute;
+  z-index: 2;
+  top: -5px;
+  left: -5px;
+  display: block;
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(
+    90deg,
+    #991eeb 0.03%,
+    #5822b4 39.91%,
+    #5822b4 72.7%,
+    #991eeb 99.99%
+  );
+  border-radius: 15px;
+}
