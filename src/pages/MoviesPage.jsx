@@ -28,7 +28,7 @@ export default function MoviesPage() {
       setMovies(data.results);
       setCorrectQuery(true);
     });
-  }, [query]);
+  }, [query, searchParams]);
    
   return (
     <Container>

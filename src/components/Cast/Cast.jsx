@@ -11,7 +11,7 @@ export default function Cast() {
   
   useEffect(() => {
     fetchCastById(id).then(setCast);
-  }, []);
+  }, [id]);
 
   const filterCast = () => {
     return cast.cast.slice(0, 5);
