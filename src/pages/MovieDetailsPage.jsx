@@ -18,7 +18,7 @@ export default function MovieDetailsPage() {
   const checkState = () => {
     const condition = location.state?.from && location.state?.query;
 
-    return { from: condition ? `${location.state.from}` : '/', query: condition ? location.state.query : '' }
+    return { from: condition ? `${location.state.from}` : '/goit-react-hw-05-movies', query: condition ? location.state.query : '' }
   }
 
   const className = isActive => isActive ? `${s.MovieDetailsPage__link} ${s.MovieDetailsPage__activeLinks}` : s.MovieDetailsPage__link;
@@ -29,7 +29,7 @@ export default function MovieDetailsPage() {
       
       <div className={s.MovieDetailsPage__wrraper}>
         <div className={s.MovieDetailsPage__img}><img src={movie.poster_path ? `https://image.tmdb.org/t/p/w780/${movie.poster_path}` : 'https://cdn.pixabay.com/photo/2017/01/25/17/35/camera-2008489_1280.png'} alt={movie.title} /></div>
-      <Link className='goBackBtn' to={location.state?.from && location.state?.query ? `${location.state.from}?query=${location.state.query}` : '/'}>Go back</Link>
+      <Link className='goBackBtn' to={location.state?.from && location.state?.query ? `${location.state.from}?query=${location.state.query}` : '/goit-react-hw-05-movies'}>Go back</Link>
       </div>
 
       <div className={s.MovieDetailsPage__info}>

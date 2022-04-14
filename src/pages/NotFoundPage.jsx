@@ -14,7 +14,7 @@ export default function NotFoundPage() {
     return (
       <div className={s.NotFoundPage}>
         <p className='mainText'>There is <span className='mainText__highlight'>no match</span> :( <br/> Try again!</p>
-        <Link className="goBackBtn" to='/'>Go Home</Link>
+        <Link className="goBackBtn" to='/goit-react-hw-05-movies'>Go Home</Link>
         <img className={s.NotFoundPage__shapeOne} src={shapeOne} alt=''/>
         <img className={s.NotFoundPage__shapeTwo} src={shapeTwo} alt=''/>
         <img className={s.NotFoundPage__goodDay} src={goodDay} alt=''/>
